@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Portfolio.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<header>
+    <nav class="navbar">
+        <a href="#" class="toggle-button hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+        <ul>
+            <li><a href="#about" class="link">ABOUT ME</a></li>
+            <li><a href="#portfolio" class="link">PORTFOLIO</a></li>
+            <li><a href="#contacts" class="link">CONTACTS</a></li>
+        </ul>
+        </div>
+    </nav>
+
+    <div class="header-image">
+        <div class="header-text">
+            <h1>Mariia, <br> Front-end developer</h1>
+        </div>
+    </div>
+</header>
+<section id="about">
+    <div class="profile-images">
+        <img src="bg2.jpg" alt="background photo" class="bg2">
+        <img src="myphoto2.png" alt="profile photo" class="profile-picture">
+    </div>
+    <div class="profile-text">
+        <h2>About me</h2>
+        <p>For me, programming is not just a job, it's a hobby.
+            <br>
+            I'm open to new knowledge,
+            I like to study new technologies
+            and apply them in practice.
+            <br>
+            <b>Skills</b>: HTML, CSS, JS, React.</p>
+    </div>
+</section>
+
+<div class="portfolio-container">
+    <h2 class="portfolio-header">Portfolio</h2>
+<section id="portfolio">
+        <div class="project-container">
+            <h3>Case Converter</h3>
+            <button class="open-window" data-window-target="#window">See more</button>
+            <img src="Case%20Converter.png" class="project" alt="Case Converter project screenshot">
+            <div class="window" id="window">
+                <div class="window-header">
+                    <div class="title">Case Converter</div>
+                </div>
+                <div class="window-body">
+                    <p>Case Converter was my first project! <br> I learned how to use basic HTML5, CSS3 and Javascript</p>
+                </div>
+                <button class="close" data-close-button>Close</button>
+            </div>
+        </div>
+
+        <div class="project-container">
+            <h3>Flashcards</h3>
+            <button class="open-window" data-window-target="#window1">See more</button>
+            <img src="Flashcards.png" class="project" alt="Flashcards project screenshot">
+            <div class="window" id="window1">
+                <div class="window-header">
+                    <div class="title">Flashcards</div>
+                </div>
+                <div class="window-body">
+                    <p>During this project I studied a lot about transitions and other useful CSS styles!</p>
+                </div>
+                <button class="close" data-close-button>Close</button>
+            </div>
+        </div>
+
+        <div class="project-container">
+            <h3>To-Do List</h3>
+            <button class="open-window" data-window-target="#window2">See more</button>
+            <img src="To-Do%20List.png" class="project" alt="To-Do List project screenshot">
+            <div class="window" id="window2">
+                <div class="window-header">
+                    <div class="title">To-Do List</div>
+                </div>
+                <div class="window-body">
+                    <p>I learned a lot of new things about Javascript and worked with Local Storage!</p>
+                </div>
+                <button class="close" data-close-button>Close</button>
+            </div>
+        </div>
+
+        <div class="project-container">
+            <h3>Open Space</h3>
+            <button class="open-window" data-window-target="#window3">See more</button>
+            <img src="Open%20Space.png" class="project" alt="Open Space project screenshot">
+            <div class="window" id="window3">
+                <div class="window-header">
+                    <div class="title">Open Space</div>
+                </div>
+                <div class="window-body">
+                    <p>It was funny project that allows you to create your own game!</p>
+                </div>
+                <button class="close" data-close-button>Close</button>
+            </div>
+        </div>
+    <div id="overlay"></div>
+</section>
+</div>
+
+<section id="contacts">
+    <a href="https://github.com/MariiaD1997"><img class="social-media" src="GitHub-Mark-64px.png" alt="github"></a>
+    <a href="https://www.instagram.com/m_midnight_walker/"><img class="social-media" src="instagram.png" alt="instagram"></a>
+    <a href="https://www.facebook.com/profile.php?id=100017250797200"><img class="social-media" src="Facebook.png" alt="facebook"></a>
+    <a href="https://www.linkedin.com/in/maria-datskiv-067486242/"><img class="social-media" src="linkedin.png" alt="linkedin"></a>
+</section>
+<footer>Mariia, 2022</footer>
+
+<script src="Portfolio.js"></script>
+</body>
+</html>
